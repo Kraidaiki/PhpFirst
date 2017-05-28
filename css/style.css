@@ -1,0 +1,61 @@
+.menu,
+.price {
+    float: left;
+    width: 250px;
+    margin: 0 0 0 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #2E8B57;
+    font-size: 16px;
+}
+.menu h2,
+.price h2 {
+    font-size: 20px;
+}
+.menu input,
+.price input {
+    margin: 15px;
+}
+.menu label,
+.price label {
+    margin: 15px;
+    font-size: 16px;
+}
+
+.price {
+    background: #9ACD32;
+}
+.form {
+   width: 540px;
+   margin: 0 auto;
+}
+.bth {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: #9ACD32;
+}
+.course_list {
+    margin: 0 0 0 15px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.clearfix::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu p:nth-of-type(even),
+.price p:nth-of-type(even) {
+    background: #6B8E23;
+}
+.amount p:nth-of-type(1) span {
+    font-weight: bold;
+}
+.amount p:nth-of-type(2) span {
+    font-weight: bold;
+    color: red;
+}
